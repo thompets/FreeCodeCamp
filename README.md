@@ -1,3 +1,3 @@
 # FreeCodeCamp
 
-# Solutions to all Bonfires, Waypoints, Ziplines, and Basejumps.
+Solutions to all Bonfires, Waypoints, Ziplines, and Basejumps.
