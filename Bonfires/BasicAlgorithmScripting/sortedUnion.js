@@ -7,7 +7,13 @@
 // but with no duplicates in the final array.
 
 function unite(arr1, arr2, arr3){
-    return arr1;
+    // combine all arrays into single array
+    var combinedArr = arr1.concat(arr2).concat(arr3);
+
+    // a new array will be returned by filter
+    return combinedArr.filter(function(value, index){
+        return combinedArr.indexOf(value) === index;
+    });
 }
 
 unite([1, 2, 3], [5, 2, 1, 4], [2, 1]);
